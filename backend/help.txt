@@ -1,0 +1,33 @@
+Verificar las versiones instaladas:
+
+python --version
+pip --version
+
+------------------------------------
+Crear entorno virtual:
+
+python -m venv venv
+
+Activar entorno virtual: 
+
+.\venv\Scripts\activate
+
+-----------------------------------
+Instalar dependencias desde requirements.txt:
+
+pip install -r requirements.txt
+
+Indicar dependencias y crear requirements.txt:
+
+pip freeze > requirements.txt
+
+------------------------------------
+Dependencias necesarias para trabajar con FastApi:
+
+pip install fastapi uvicorn python-multipart
+
+C:\Users\Lorena\Desktop\taro_android\backend\app> uvicorn main:app
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+C:\Users\Lorena\Desktop\taro_android\frontend\taro-android> npm start
+npm start
